@@ -1,0 +1,4 @@
+the interface which contains single abstract method and n no of default and static methods
+
+we can use @FunctionalInterface to make it mandatory functional interface but it is optional because if there is one abstract method is there 
+  we can invoke lambda function

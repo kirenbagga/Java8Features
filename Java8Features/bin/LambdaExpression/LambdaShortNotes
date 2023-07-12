@@ -1,0 +1,18 @@
+Lambda expression  is a anonymous function without name, without access modifier and without return type.
+compiler will consider returned value automatically
+syntax:   (n arguments)-> /*expression*/ ; 
+	egs:  (a,b)->a+b;
+	      ()->{System.Out.Println("hello");};
+	      n->n*n;
+	      n->{return n*n;};
+Rules:  1. without curly braces we should not use return keyword
+        2. if we want to return some value then we must use return keyword within curly braces
+        3. if only one argument then parenthesis is optional      
+
+Adv: will reduce code(concise code)
+
+
+to call the lambda expression we must need functional interfaces
+
+the interface which contains single abstract method and n no of default and static methods
+to provide reference type to lambda expression we need FUNCTIONAL INTERFACE	      
